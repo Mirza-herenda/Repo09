@@ -6,7 +6,7 @@ function comparisonToEqual(a)
     if(a<10)
     return console.log("less than 10");
 
-    if(a<=20)
+    if(a>10 && a<20)
     return console.log("10 or over");
 
     if(a>20)
