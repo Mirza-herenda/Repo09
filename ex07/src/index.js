@@ -4,3 +4,5 @@ function randomRangeNumber(minNumber,maxNumber)
 }
 
 console.log(randomRangeNumber(1,10));
+
+module.exports=randomRangeNumber;
