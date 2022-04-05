@@ -10,3 +10,5 @@ myEqualFunction(23);
 myEqualFunction("23");
 myEqualFunction('23');
 myEqualFunction("text");
+
+module.exports=myEqualFunction;
