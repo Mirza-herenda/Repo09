@@ -1,14 +1,16 @@
-
-function myFunction(myParameter) 
-{
-    if(myParameter==true)
+function myFunction(myParameter)
+ {
+    if (myParameter) 
     {
-        return console.log("The parametar is true!");
+      return "The parameter is true!";
     }
-    return console.log("The parametar is false!"); 
-}
-
-myFunction(true);
-myFunction(false);
-
-module.exports=myFunction;
+    return "The parameter is false!";
+  }
+  
+  console.log(myFunction(true));
+  console.log(myFunction(false));
+  
+  myFunction(true);
+  myFunction(false);
+  
+  module.exports = myFunction;
